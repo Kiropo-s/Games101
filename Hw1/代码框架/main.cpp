@@ -41,6 +41,7 @@ Eigen::Matrix4f get_model_matrix(float rotation_angle)
 
 // eye_fov:field of view     tan(eye_fov/2)=(h/2)/abs(n)
 // aspect_ratio = w/h
+// PS:因为再Opencv中坐标轴与课程中不同，所以生成的三角形是颠倒的
 Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
                                       float zNear, float zFar)
 {
