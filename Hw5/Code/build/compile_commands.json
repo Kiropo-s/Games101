@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/cs18/Desktop/games101/Hw5/Code/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -pedantic -Wshadow -Wreturn-type -fsanitize=undefined -std=gnu++1z -o CMakeFiles/RayTracing.dir/main.cpp.o -c /home/cs18/Desktop/games101/Hw5/Code/main.cpp",
+  "file": "/home/cs18/Desktop/games101/Hw5/Code/main.cpp"
+},
+{
+  "directory": "/home/cs18/Desktop/games101/Hw5/Code/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -pedantic -Wshadow -Wreturn-type -fsanitize=undefined -std=gnu++1z -o CMakeFiles/RayTracing.dir/Scene.cpp.o -c /home/cs18/Desktop/games101/Hw5/Code/Scene.cpp",
+  "file": "/home/cs18/Desktop/games101/Hw5/Code/Scene.cpp"
+},
+{
+  "directory": "/home/cs18/Desktop/games101/Hw5/Code/build",
+  "command": "/usr/bin/c++    -g   -Wall -Wextra -pedantic -Wshadow -Wreturn-type -fsanitize=undefined -std=gnu++1z -o CMakeFiles/RayTracing.dir/Renderer.cpp.o -c /home/cs18/Desktop/games101/Hw5/Code/Renderer.cpp",
+  "file": "/home/cs18/Desktop/games101/Hw5/Code/Renderer.cpp"
+}
+]
