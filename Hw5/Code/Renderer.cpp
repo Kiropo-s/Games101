@@ -228,7 +228,10 @@ void Renderer::Render(const Scene& scene)
             // TODO: Find the x and y positions of the current pixel to get the direction
             // vector that passes through it.
             // Also, don't forget to multiply both of them with the variable *scale*, and
-            // x (horizontal) variable with the *imageAspectRatio*            
+            // x (horizontal) variable with the *imageAspectRatio*        
+            
+            //将屏幕调整到正交投影的窗口大小，并且调整视角仰角
+            
             x = 0.5 + i, y = 0.5 + j;
             
             x = x / scene.width*2 - 1, y = - (y / scene.height*2 - 1);
